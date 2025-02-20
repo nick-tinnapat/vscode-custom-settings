@@ -1,0 +1,108 @@
+{
+  "window.zoomLevel": 2,
+  
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+
+  // "editor.cursorStyle": "underline",
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "smooth",
+
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  // "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.guides.indentation": false,
+  
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  // "editor.scrollbar.vertical": "hidden",
+  // "editor.scrollbar.horizontal": "hidden",
+
+  "editor.renderLineHighlight": "none",
+  "editor.glyphMargin": false,
+  "editor.lineNumbers": "on",
+  "editor.showFoldingControls": "never",
+  "editor.padding.bottom": 2,
+  "editor.padding.top": 2,
+
+  "window.title": "✨ ɴɪᴄᴋ ᴛɪɴɴᴀᴘᴀᴛ 🐳",
+  // "window.density.editorTabHeight": "compact",
+  "workbench.layoutControl.type": "menu",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  // "workbench.editor.showTabs": "none",
+  "editor.scrollBeyondLastLine": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "custom",
+
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.decorations.colors": false,
+
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "workbench.settings.applyToAllProfiles": [],
+
+  "ruff.format.args": ["--config", "format.quote-style = 'single'"],
+  "python.analysis.extraPaths": ["./django-v2", "./frontend-v2"],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[python]": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "apc.font.family": "JetBrains Mono",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "editor.fontFamily": "JetBrains Mono,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  //install vibrancy continued extension
+  "vscode_vibrancy.opacity": 0,
+  "vscode_vibrancy.theme": "Dark (Only Subbar)",
+  "terminal.integrated.gpuAcceleration": "off",
+  "basedpyright.analysis.extraPaths": [
+    "django-v2",
+    "django",
+    "frontend",
+    "core"
+  ],
+  "basedpyright.analysis.typeCheckingMode": "basic",
+  "basedpyright.analysis.inlayHints.functionReturnTypes": false,
+  "basedpyright.disableTaggedHints": true,
+  "windsurfPyright.disableTaggedHints": true,
+}
